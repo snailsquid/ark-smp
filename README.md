@@ -1,1 +1,1 @@
-# ark-smp
+# ark-smp-modpacks
