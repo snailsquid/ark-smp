@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="fastpack" abstract="false" name="FastPack Instance" newsUrl="about:blank" version="1.18.1" generateList="true" autoConnect="true" revision="1" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
+		<Import url="https://fabricmc.net/download/mcupdater/?yarn=latest&amp;loader=0.12.12">fabric</Import>
+		<Module name="&apos;Slight&apos; GUI Modifications" id="slight-gui-modifications" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/slight-gui-modifications-2.0.3.jar</URL>
+			<Size>7606662</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b8697d57f463e70b18ec29fa69213c1c</MD5>
+			<Meta>
+				<license></license>
+				<description>Slightly alternate the gui a bit :)
+Visit the CurseForge page for list of features.
+Suggest features to add in our discord!</description>
+				<version>2.0.3</version>
+				<authors></authors>
+			</Meta>
+		</Module>
+		<Module name="AdvancementInfo" id="advancementinfo" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/advancementinfo-1.18-fabric0.43.1-1.3.jar</URL>
+			<Size>1442806</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e5e227416e37ad2f6fc89d1c1f6829b3</MD5>
+			<Meta>
+				<license></license>
+				<description>Make it easier to see which advancements you have and what&apos;s missing.</description>
+				<version>1.18-fabric0.43.1-1.3</version>
+				<authors>Giselbaer</authors>
+			</Meta>
+		</Module>
+		<Module name="Animatica" id="animatica" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/animatica-0.4+1.18.jar</URL>
+			<Size>72110</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d1c6930b6a28c7fcc09a6f266252cb49</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>Allow for animating more game textures using the MCPatcher/OptiFine animation format</description>
+				<version>0.4+1.18</version>
+				<authors>FoundationGames</authors>
+			</Meta>
+		</Module>
+		<Module name="AntiGhost" id="antighost" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/antighost-1.18-fabric0.43.1-1.1.4.jar</URL>
+			<Size>78405</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4b3dde0fe80b868968ec87bfe68f86f5</MD5>
+			<Meta>
+				<license></license>
+				<description>Mod that helps you get rid of ghost blocks around yourself. Use /ghost or type the g key (can be rebound) to request block-resends.</description>
+				<version>1.18-fabric0.43.1-1.1.4</version>
+				<authors>Giselbaer</authors>
+			</Meta>
+		</Module>
+		<Module name="Architectury" id="architectury" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/architectury-3.7.22.jar</URL>
+			<Size>538067</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>41175a6604b7a6d0d08fa2f9dcd5674c</MD5>
+			<Meta>
+				<license>LGPL-3</license>
+				<description>A intermediary api aimed to ease developing multiplatform mods.</description>
+				<version>3.7.22</version>
+				<authors>shedaniel</authors>
+			</Meta>
+		</Module>
+		<Module name="bettermounthud-1.1.4" id="bettermounthud" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/bettermounthud-1.1.4.jar</URL>
+			<Size>16760</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>636cb700988d54094ead5bfd5237b2ec</MD5>
+		</Module>
+		<Module name="borderless-mining-1.1.1+1.18" id="borderlessmining" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/borderless-mining-1.1.1+1.18.jar</URL>
+			<Size>87299</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e5166eb3c4f5a53de9fca8fb9f119950</MD5>
+		</Module>
+		<Module name="Capes-1.2.2+1.18" id="capes" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/Capes-1.2.2+1.18.jar</URL>
+			<Size>229894</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>177614b5b03be241b4e34888a71f60c8</MD5>
+		</Module>
+		<Module name="cem-0.7.0" id="cem" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/cem-0.7.0.jar</URL>
+			<Size>343847</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8d17984306c7837be50cb476227a6fbb</MD5>
+		</Module>
+		<Module name="CITResewn" id="citresewn" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/CITResewn-0.9.1+1.18.1.jar</URL>
+			<Size>211767</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2fb41d0387ce825bda5ada14f09d8136</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Re-implements MCPatcher&apos;s CIT</description>
+				<version>0.9.1+1.18.1</version>
+				<authors>SHsuperCM</authors>
+			</Meta>
+		</Module>
+		<Module name="Cloth API" id="cloth-api" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/cloth-api-3.1.61.jar</URL>
+			<Size>140966</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6713fe59449b252cb7fbb7f112573f8b</MD5>
+			<Meta>
+				<license>Unlicense</license>
+				<description>Generalized API for Fabric.</description>
+				<version>3.1.61</version>
+				<authors>shedaniel</authors>
+			</Meta>
+		</Module>
+		<Module name="Cloth Config v6" id="cloth-config" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/cloth-config-6.2.57-fabric.jar</URL>
+			<Size>1122823</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>85b627bfbfa933d83c383a5e7034f496</MD5>
+			<Meta>
+				<license>GNU LGPLv3</license>
+				<description>An API for config screens.</description>
+				<version>6.2.57</version>
+				<authors>shedaniel</authors>
+			</Meta>
+		</Module>
+		<Module name="Colormatic" id="colormatic" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/colormatic-3.1.0+mc.1.18.1.jar</URL>
+			<Size>201650</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>24033548e952c2c0dcc1ad589889c3d8</MD5>
+			<Meta>
+				<license>LGPL-3</license>
+				<description>Adds the ability to customize colors hardcoded in vanilla.</description>
+				<version>3.1.0+mc.1.18.1</version>
+				<authors>kwerti, Hambaka (Chinese Simplified localization), Madis0 (Estonian localization)</authors>
+			</Meta>
+		</Module>
+		<Module name="CompleteConfig" id="completeconfig" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/completeconfig-lib-1.3.3.jar</URL>
+			<Size>824758</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d7e7d33be4a7dae4830f7759f6d70439</MD5>
+			<Meta>
+				<license>Apache-2.0</license>
+				<description>Configuration library</description>
+				<version>1.3.3</version>
+				<authors>Lortseam</authors>
+			</Meta>
+		</Module>
+		<Module name="Continuity" id="continuity" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/continuity-1.1.0+1.18.jar</URL>
+			<Size>1100097</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>63d0de818d3f85fbeb2675b7147a55f6</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>Continuity is a Fabric mod built around modern APIs to allow for the most efficient connected textures experience possible. It is designed to provide full Optifine parity for all resource packs that use the Optifine/MCPatcher CTM format.</description>
+				<version>1.1.0+1.18</version>
+				<authors>Pepper_Bell</authors>
+			</Meta>
+		</Module>
+		<Module name="Cull Leaves" id="cullleaves" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/cullleaves-2.3.2.jar</URL>
+			<Size>82789</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e1db1ca47de40b5d5b2686a5b0bfc808</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Adds culling to leaf blocks, providing a huge performance boost over vanilla.</description>
+				<version>2.3.2</version>
+				<authors>Motschen, TeamMidnightDust</authors>
+			</Meta>
+		</Module>
+		<Module name="DCCH" id="dcch" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/DCCH-1.17.x.jar</URL>
+			<Size>2934</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>27d01432f3a7f4d85b54d6b2d70be2f4</MD5>
+			<Meta>
+				<license>CC0-1.0</license>
+				<description>Don&apos;t clear chet history!</description>
+				<version>1.0</version>
+				<authors>anar4732</authors>
+			</Meta>
+		</Module>
+		<Module name="Dynamic FPS" id="dynamicfps" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/dynamic-fps-2.1.0.jar</URL>
+			<Size>88824</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d7c661987017a19774f19f19a93ba527</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Dynamically adjusts FPS so minecraft doesn&apos;t hog resources in background.</description>
+				<version>2.1.0</version>
+				<authors>juliand665</authors>
+			</Meta>
+		</Module>
+		<Module name="Enhanced Block Entities" id="enhancedblockentities" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/enhancedblockentities-0.5+1.18.jar</URL>
+			<Size>262810</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>553a18a59dcc84cea4965c5cf851211c</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>Optimize and customize block entity rendering with a more modern approach.</description>
+				<version>0.5+1.18</version>
+				<authors>FoundationGames</authors>
+			</Meta>
+		</Module>
+		<Module name="Entity Texture Features" id="entity_texture_features" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/entity-texture-features-2.2.0.jar</URL>
+			<Size>992397</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4fee1d6e427968e5080faf4685eba186</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>- Optifine format compatible
+- Random/alternate textures
+- Emissive textures</description>
+				<version>2.2.0</version>
+				<authors>Traben</authors>
+			</Meta>
+		</Module>
+		<Module name="EntityCulling-Fabric" id="entityculling" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/entityculling-fabric-mc1.18-1.5.0.jar</URL>
+			<Size>44583</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b2c0d3c65bb7a76f9924e85e206602b9</MD5>
+			<Meta>
+				<license>tr7zw Protective License</license>
+				<description>This mod uses async path-tracing to hide Tiles/Entities that are not visible.</description>
+				<version>1.5.0</version>
+				<authors>tr7zw</authors>
+			</Meta>
+		</Module>
+		<Module name="Fabric API" id="fabric" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/fabric-api-0.46.4+1.18.jar</URL>
+			<Size>1174956</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>de4088c11e9e5233a62650b17588486f</MD5>
+			<Meta>
+				<license>Apache-2.0</license>
+				<description>Core API module providing key hooks and intercompatibility features.</description>
+				<version>0.46.4+1.18</version>
+				<authors>FabricMC</authors>
+			</Meta>
+		</Module>
+		<Module name="Fabric Language Kotlin" id="fabric-language-kotlin" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/fabric-language-kotlin-1.7.1+kotlin.1.6.10.jar</URL>
+			<Size>6052131</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f46bef83dc6266252bf39e27197c6a03</MD5>
+			<Meta>
+				<license>Apache-2.0</license>
+				<description>Fabric language module for Kotlin.</description>
+				<version>1.7.1+kotlin.1.6.10</version>
+				<authors>Nikky</authors>
+			</Meta>
+		</Module>
+		<Module name="fabrishot-1.6.2" id="fabrishot" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/fabrishot-1.6.2.jar</URL>
+			<Size>40101</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b350313d8be62a29e3734643d3861a30</MD5>
+		</Module>
+		<Module name="FastOpenResourcePacks" id="fastopenlinksandfolders" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/fastopenlinksandfolders-1.1.0.jar</URL>
+			<Size>4639</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>73a2f5b6235eb47ed4ec990c81be420f</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>A lightweight mod to make the game not block when opening a chat link, a screenshot or the resourcepacks or datapacks folder</description>
+				<version>1.1.0</version>
+				<authors>altrisi</authors>
+			</Meta>
+		</Module>
+		<Module name="FerriteCore" id="ferritecore" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/ferritecore-4.1.2-fabric.jar</URL>
+			<Size>115546</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>54c3199b30b813a7bd5d37028b31c53e</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Reduces memory usage</description>
+				<version>4.1.2</version>
+				<authors>malte0811</authors>
+			</Meta>
+		</Module>
+		<Module name="Indium" id="indium" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/indium-1.0.2-alpha2+mc1.18.1.jar</URL>
+			<Size>110398</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>27a1d6e61072bb8445b46506e244ae81</MD5>
+			<Meta>
+				<license>Apache-2.0</license>
+				<description>Sodium addon providing support for the Fabric Rendering API, based on Indigo</description>
+				<version>1.0.2-alpha2+mc1.18.1</version>
+				<authors>comp500</authors>
+			</Meta>
+		</Module>
+		<Module name="Iris" id="iris" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/iris-mc1.18.1-1.2.0-pre.jar</URL>
+			<Size>1779258</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>35415173d6c67a3ef387953aabe52743</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs</description>
+				<version>1.2.0-pre</version>
+				<authors>coderbot, IMS212, Justsnoopy30, FoundationGames</authors>
+			</Meta>
+		</Module>
+		<Module name="Item Model Fix" id="itemmodelfix" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/item-model-fix-1.0.3+1.18.jar</URL>
+			<Size>32533</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4e82f0a5a74b8dc4f7b75f1d8cf1066f</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>Fixes gaps in generated item models.
+To access the configuration, follow the instructions on the mod website.</description>
+				<version>1.0.3+1.18</version>
+				<authors>Pepper_Bell</authors>
+			</Meta>
+		</Module>
+		<Module name="LambdaBetterGrass" id="lambdabettergrass" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/lambdabettergrass-1.2.2+1.17.jar</URL>
+			<Size>1151004</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ee24a743129653b0932f614e12b88eaa</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Adds actual better grass.</description>
+				<version>1.2.2+1.17</version>
+				<authors>LambdAurora</authors>
+			</Meta>
+		</Module>
+		<Module name="LambDynamicLights" id="lambdynlights" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/lambdynamiclights-2.1.0+1.17.jar</URL>
+			<Size>592990</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>14f088afd4041973b1a083b0c7705303</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Adds dynamic lights to the game.</description>
+				<version>2.1.0+1.17</version>
+				<authors>LambdAurora</authors>
+			</Meta>
+		</Module>
+		<Module name="language-reload-1.2.1" id="languagereload" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/language-reload-1.2.1.jar</URL>
+			<Size>31360</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>be271053ab6e35e066192299eaedf7e5</MD5>
+		</Module>
+		<Module name="LazyDFU" id="lazydfu" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/lazydfu-0.1.2.jar</URL>
+			<Size>15517</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b2597e901c05673ef2834dad32da8824</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Makes DataFixerUpper more lazy</description>
+				<version>0.1.2</version>
+				<authors>tuxed</authors>
+			</Meta>
+		</Module>
+		<Module name="Lithium" id="lithium" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/lithium-fabric-mc1.18.1-0.7.8.jar</URL>
+			<Size>449519</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3b9158c1859d841419ec0306c66a0928</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>Lithium is a free and open-source optimization mod for Minecraft which makes a wide range of performance improvements to the game.</description>
+				<version>0.7.8</version>
+				<authors>JellySquid, 2No2Name</authors>
+			</Meta>
+		</Module>
+		<Module name="MidnightLib" id="midnightlib" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/midnightlib-0.4.0.jar</URL>
+			<Size>59709</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>daa8f4762d79a309500822a8bbe41b8f</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Common Library for Team MidnightDust&apos;s mods.</description>
+				<version>0.4.0</version>
+				<authors>Motschen, TeamMidnightDust</authors>
+			</Meta>
+		</Module>
+		<Module name="Mod Menu" id="modmenu" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/modmenu-3.0.1.jar</URL>
+			<Size>270707</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9411d9c800ef983de97aa641e791f276</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Adds a mod menu to view the list of mods you have installed.</description>
+				<version>3.0.1</version>
+				<authors>Prospector, jackassmc, TerraformersMC</authors>
+			</Meta>
+		</Module>
+		<Module name="MoreChatHistory" id="morechathistory" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/morechathistory-1.18-1.1.0.jar</URL>
+			<Size>11104</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>168456be0c2fff74307970f230c64319</MD5>
+			<Meta>
+				<license>CC0-1.0</license>
+				<description>Increases the length of the chat history.</description>
+				<version>1.1.0</version>
+				<authors>JackFred</authors>
+			</Meta>
+		</Module>
+		<Module name="No Fade" id="nofade" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/nofade-1.18-2.0.1.jar</URL>
+			<Size>16197</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c3093983da90178fc702c5ff7b39096f</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Remove fade out animations</description>
+				<version>1.18-2.0.1</version>
+				<authors>UltimateBoomer</authors>
+			</Meta>
+		</Module>
+		<Module name="Not Enough Crashes" id="notenoughcrashes" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/notenoughcrashes-4.1.4+1.18.1-fabric.jar</URL>
+			<Size>164436</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>cdf062da31516b104447c7090cf7900b</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Improves crashes in Minecraft - allows returning to title screen, blaming causing mods, and more.</description>
+				<version>4.1.4+1.18.1</version>
+				<authors>Fudge, Runemoro</authors>
+			</Meta>
+		</Module>
+		<Module name="Puzzle" id="puzzle" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/puzzle-1.1.0.jar</URL>
+			<Size>131953</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b73bd8bf4d1ff0a486ec1d9e8af8507f</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Fancy and performance-improving features.</description>
+				<version>1.1.0</version>
+				<authors>PuzzleMC, Motschen</authors>
+			</Meta>
+		</Module>
+		<Module name="Reese&apos;s Sodium Options" id="reeses-sodium-options" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/reeses_sodium_options-mc1.18.1-1.4.0.jar</URL>
+			<Size>41887</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>23472f8ca904fb5e761775df3221f0a7</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Replaces Sodium&apos;s Options Screen</description>
+				<version>1.4.0</version>
+				<authors>FlashyReese</authors>
+			</Meta>
+		</Module>
+		<Module name="Runtime Resource Pack" id="advanced_runtime_resource_pack" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/arrp-0.5.4.jar</URL>
+			<Size>135423</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8c4daf7e4f98b8cc2bb433efbd0997a3</MD5>
+			<Meta>
+				<license>MPLv2</license>
+				<description>a mod that allows mods to generate assets/data on the fly</description>
+				<version>0.5.4</version>
+				<authors>HalfOf2</authors>
+			</Meta>
+		</Module>
+		<Module name="Smooth Boot" id="smoothboot" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/smoothboot-fabric-1.18-1.7.0.jar</URL>
+			<Size>88826</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d9ddb19cde766291024f40ed20f4940e</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Improve and tweak Minecraft CPU scheduling.</description>
+				<version>1.18-1.7.0</version>
+				<authors>UltimateBoomer</authors>
+			</Meta>
+		</Module>
+		<Module name="Sodium" id="sodium" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/sodium-fabric-mc1.18.1-0.4.0-alpha6+build.14.jar</URL>
+			<Size>1315447</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9a8c1252bdfa309c7732649cb5ff7656</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>Sodium is a free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes.</description>
+				<version>0.4.0-alpha6+build.14</version>
+				<authors>JellySquid</authors>
+			</Meta>
+		</Module>
+		<Module name="Sodium Extra" id="sodium-extra" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/sodium-extra-mc1.18.1-0.4.0.jar</URL>
+			<Size>175458</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>145294fc94f5d80bc9290edfbcfa7bf0</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>Features that shouldn&apos;t be in Sodium.</description>
+				<version>0.4.0</version>
+				<authors>FlashyReese</authors>
+			</Meta>
+		</Module>
+		<Module name="Starlight" id="starlight" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/starlight-1.0.0+fabric.d0a3220.jar</URL>
+			<Size>127235</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8f2e0293b96da3ec63ee55560ed8a6e3</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>Rewrites the light engine to fix lighting performance and lighting errors</description>
+				<version>1.0.0+fabric.d0a3220</version>
+				<authors>Spottedleaf</authors>
+			</Meta>
+		</Module>
+		<Module name="TieFix" id="tiefix" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/TieFix-1.9.0.jar</URL>
+			<Size>935410</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fea4d0538cb2e605f67c60a27d8901eb</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>Fixes some annoying bugs</description>
+				<version>1.9.0</version>
+				<authors>James Tai</authors>
+			</Meta>
+		</Module>
+		<Module name="tooltipfix-1.0.4-1.18" id="tooltipfix" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/tooltipfix-1.0.4-1.18.jar</URL>
+			<Size>10653</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5e32a853e7066995f131cd1dbd601758</MD5>
+		</Module>
+		<Module name="YOSBR" id="yosbr" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/yosbr-0.1.1.jar</URL>
+			<Size>19206</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>16ed8b1ac6dd0c52390bec2192c90f1d</MD5>
+			<Meta>
+				<license>CC-BY-NC-4.0</license>
+				<description>Your options shall be respected.</description>
+				<version>0.1.1</version>
+				<authors>shedaniel</authors>
+			</Meta>
+		</Module>
+		<Module name="Zoomify-1.1.0" id="zoomify" depends="" side="BOTH">
+			<URL priority="0">https://github.com/snailsquid/ark-smp/Zoomify-1.1.0.jar</URL>
+			<Size>149637</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c044777484ee4d26309385a6dfd896b5</MD5>
+		</Module>
+	</Server>
+</ServerPack>
